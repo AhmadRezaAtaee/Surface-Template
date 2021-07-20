@@ -113,7 +113,8 @@ li{
 }
 /* ======================== intro ======================== */
 .intro>h1{
-    font-size: 48px;
+    font-size: 48px !important;
+    line-height: 58px !important;
 }
 .intro>p{
     margin-bottom: 32px;
@@ -161,9 +162,18 @@ li{
     flex-direction: column;
     opacity: 0.48;
     padding: 10px 16px;
-    transition: opacity .15s ease;
+    transition: opacity 0.2s ease;
     cursor: pointer;
     margin-bottom: 48px;
+}
+.tab:hover{
+    opacity: 1;
+}
+.tab>span{
+    color: #2E3458;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
 }
 .tab>img{
     background-image: linear-gradient(0deg, rgb(233, 236, 248) 0px, rgb(255, 255, 255) 100%);
@@ -244,6 +254,7 @@ li{
     border-top: 1px solid #e9ecf8;
     font-size: 16px;
     font-weight: 500;
+    color: #2E3458;
     display: block;
 }
 .person-content>span>a{
@@ -266,10 +277,17 @@ li{
     margin-bottom: 16px;
     display: inline-block;
     text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
 }
 .price-input>span{
     margin-left: -230px;
     margin-top: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #9298B8;
 }
 .price-input>input{
     -webkit-appearance: none;
@@ -323,7 +341,9 @@ li{
 .price-content>span{
     margin: 24px 0;
     display: block;
-    ;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E3458;
 }
 .price-content>p{
     padding-bottom: 24px;
